@@ -18,8 +18,7 @@ dependencies = [
     "spglib",
     "phonopy>=2.38.0,<2.39",
 ]
-license = "BSD-3-Clause"
-license-files = ["LICENSE"]
+license = { file = "LICENSE" }
 
 [project.urls]
 Homepage = "https://phonopy.github.io/phono3py/"
